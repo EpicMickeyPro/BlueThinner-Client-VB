@@ -5,10 +5,12 @@ Public Class ToolsPage
     Private urislist As List(Of Uri)
     Private LastAudioUri As Uri
     Private bgmprocess As Process
-    'Public quickBMSUri As Uri
 
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        ' W.I.P.
+
         OpenFileDialog = New OpenFileDialog With {
             .Filter = "WAV files (*.wav)|*.wav|All files (*.*)|*.*" 'You can add anything to this filter, you do: "Name file (*.EXTENTION)|*.EXTENTION"
             }
@@ -25,16 +27,26 @@ Public Class ToolsPage
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+
+        ' Basically finished
+
         OpenFileDialog = New OpenFileDialog With {
-            .Filter = "quickbms (quickbms.exe)|quickbms.exe|All files (*.*)|*.*", 'You can add anything to this filter, you do: "Name file (*.EXTENTION)|*.EXTENTION"
-            .Title = "Select the quickbms application:"
+        .Filter = "quickbms (quickbms.exe)|quickbms.exe", 'You can add anything to this filter, you do: "Name file (*.EXTENTION)|*.EXTENTION"
+        .Title = "Couldn't find quickbms automatically, select the quickbms application:"
         }
-        If OpenFileDialog.ShowDialog() = DialogResult.OK Then
-            bgmprocess = New Process
-            bgmprocess.StartInfo.FileName = "" 'OpenFileDialog.FileName
-            bgmprocess.StartInfo.Arguments = "-. epic-mickey.bms"
+
+        bgmprocess = New Process
+        bgmprocess.StartInfo.FileName = (IO.Path.GetDirectoryName(Reflection.Assembly.GetExecutingAssembly().CodeBase) + "\pak\quickbms.exe") 'Get current path and add the default path to the quickbms.exe
+        bgmprocess.StartInfo.Arguments = "-. epic-mickey.bms" 'Automatically get the .bms file if possible
+
+        Try
             bgmprocess.Start()
-            AppDomain.Path & IIf(Right$(App.Path, 1) <> "", "", "") & App.EXEName & ".exe"
-        End If
+        Catch err As System.ComponentModel.Win32Exception
+            If OpenFileDialog.ShowDialog() = DialogResult.OK Then 'Run the FileDialog and wait for the user to select a file.
+                bgmprocess = New Process
+                bgmprocess.StartInfo.FileName = OpenFileDialog.FileName
+                bgmprocess.Start()
+            End If
+        End Try
     End Sub
 End Class

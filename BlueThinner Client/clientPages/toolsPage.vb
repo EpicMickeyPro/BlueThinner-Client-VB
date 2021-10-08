@@ -31,9 +31,10 @@ Public Class ToolsPage
         }
         If OpenFileDialog.ShowDialog() = DialogResult.OK Then
             bgmprocess = New Process
-            bgmprocess.StartInfo.FileName = OpenFileDialog.FileName
-            bgmprocess.StartInfo.Arguments = ""
+            bgmprocess.StartInfo.FileName = "" 'OpenFileDialog.FileName
+            bgmprocess.StartInfo.Arguments = "-. epic-mickey.bms"
             bgmprocess.Start()
+            AppDomain.Path & IIf(Right$(App.Path, 1) <> "", "", "") & App.EXEName & ".exe"
         End If
     End Sub
 End Class

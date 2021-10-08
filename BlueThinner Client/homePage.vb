@@ -1,10 +1,10 @@
 ﻿Public Class clientHomePage
-    Private Sub clientHomePage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub ClientHomePage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnTools.Click
-        toolsPage.Show()
+        ToolsPage.Show()
 
     End Sub
 

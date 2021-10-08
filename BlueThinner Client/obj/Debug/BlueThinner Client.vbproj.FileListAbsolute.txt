@@ -1,0 +1,13 @@
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\bin\Debug\BlueThinner Client.exe.config
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\bin\Debug\BlueThinner Client.exe
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\bin\Debug\BlueThinner Client.pdb
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\bin\Debug\BlueThinner Client.xml
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\obj\Debug\BlueThinner Client.vbproj.AssemblyReference.cache
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\obj\Debug\BlueThinner_Client.toolsPage.resources
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\obj\Debug\BlueThinner_Client.clientHomePage.resources
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\obj\Debug\BlueThinner_Client.Resources.resources
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\obj\Debug\BlueThinner Client.vbproj.GenerateResource.cache
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\obj\Debug\BlueThinner Client.vbproj.CoreCompileInputs.cache
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\obj\Debug\BlueThinner Client.exe
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\obj\Debug\BlueThinner Client.xml
+C:\Users\121248\Source\Repos\BlueThinner-Client\BlueThinner Client\obj\Debug\BlueThinner Client.pdb

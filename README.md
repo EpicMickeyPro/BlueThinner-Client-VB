@@ -5,5 +5,8 @@ BlueThinner Client allows Epic Mickey users to mod Epic Mickey easier without us
 
 
 
-# Using the Client
+# Using the Client:
 (coming soon)
+
+# Discord Server:
+https://discord.gg/ggZPvEt3PN

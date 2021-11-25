@@ -1,5 +1,6 @@
 # *PLEASE READ*
 The BlueThinner Client is moving to a Google Drive link, it is not recomended you download this version at this time.
+
 Join the Discord server if you want to help out.
 Thank you for reading, sorry for the inconvenience.
 

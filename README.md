@@ -5,3 +5,6 @@ BlueThinner Client allows Epic Mickey users to modify content inside Epic Mickey
 
 # Discord Server:
 https://discord.gg/ggZPvEt3PN
+
+# Build Instructions
+Build it using Visual Studio 2019

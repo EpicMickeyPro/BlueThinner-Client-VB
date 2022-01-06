@@ -1,5 +1,5 @@
 # ! PROJECT CLOSING SOON !
-It is not recommended that you make any changes to this project as it will be closed soon.
+End of Life date: *1/5/2022*
 Link to new project: https://github.com/BlueThinner/BlueThinner-Client
 
 # BlueThinner-Client

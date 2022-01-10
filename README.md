@@ -1,4 +1,4 @@
-# ! PROJECT CLOSING SOON !
+# ! PROJECT HAS BEEN ARCHIVED !
 End of Life date: *1/10/2022 (U.S.)*.
 Link to new project: https://github.com/BlueThinner/BlueThinner-Client
 
